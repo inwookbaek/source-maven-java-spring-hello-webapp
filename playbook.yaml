@@ -4,7 +4,7 @@
   tasks:
     - docker_container:
         name: myhello
-        image: inwookbaek/myhello:latest
+        image: iwbaek/myhello:latest
         state: started
         ports:
           - "80:8080"
